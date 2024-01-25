@@ -1,0 +1,49 @@
+J:\My Drive\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\AppVenteRepeat.exe.config
+J:\My Drive\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\AppVenteRepeat.exe
+J:\My Drive\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\AppVenteRepeat.pdb
+J:\My Drive\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.csproj.AssemblyReference.cache
+J:\My Drive\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.Form1.resources
+J:\My Drive\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.frmCategories.resources
+J:\My Drive\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.frmLayout.resources
+J:\My Drive\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.frmProduit.resources
+J:\My Drive\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.Properties.Resources.resources
+J:\My Drive\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.csproj.GenerateResource.cache
+J:\My Drive\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.csproj.CoreCompileInputs.cache
+J:\My Drive\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.exe
+J:\My Drive\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.pdb
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\AppVenteRepeat.exe.config
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\AppVenteRepeat.exe
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\AppVenteRepeat.pdb
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.csproj.AssemblyReference.cache
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.Form1.resources
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.frmCategories.resources
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.frmLayout.resources
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.frmProduit.resources
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.Properties.Resources.resources
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.csproj.GenerateResource.cache
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.csproj.CopyComplete
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.exe
+C:\Users\User\Documents\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.pdb
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\AppVenteRepeat.exe.config
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\AppVenteRepeat.exe
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\AppVenteRepeat.pdb
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\EntityFramework.dll
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\EntityFramework.xml
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.csproj.AssemblyReference.cache
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.Form1.resources
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.frmCategories.resources
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.frmLayout.resources
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.frmProduit.resources
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.Properties.Resources.resources
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.csproj.GenerateResource.cache
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.csproj.CoreCompileInputs.cache
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.csproj.CopyComplete
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.exe
+C:\Users\ibrab\Desktop\School\L3GL_ISI\C sharp\AppVente\AppVenteRepeat\AppVenteRepeat\obj\Debug\AppVenteRepeat.pdb

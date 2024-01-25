@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bdVenteModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="categories">
+    <Key>
+      <PropertyRef Name="idCategorie" />
+    </Key>
+    <Property Name="idCategorie" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="codeCategorie" Type="nvarchar" MaxLength="5" />
+    <Property Name="libelleCategorie" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Produits">
+    <Key>
+      <PropertyRef Name="idProduit" />
+    </Key>
+    <Property Name="idProduit" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="codeProduit" Type="nvarchar" MaxLength="5" />
+    <Property Name="nomProduit" Type="nvarchar" MaxLength="50" />
+    <Property Name="prixUnitaire" Type="float" />
+    <Property Name="qteMin" Type="int" />
+    <Property Name="qteCri" Type="int" />
+    <Property Name="codeCategorie" Type="nvarchar" MaxLength="5" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'bdVente.dbo.Profils' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Profils">
+    <Key>
+      <PropertyRef Name="idProfil" />
+    </Key>
+    <Property Name="idProfil" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="codeProfil" Type="nvarchar" MaxLength="5" />
+    <Property Name="nomProfil" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'bdVente.dbo.Utilisateurs' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Utilisateurs">
+    <Key>
+      <PropertyRef Name="idUtilisateur" />
+    </Key>
+    <Property Name="idUtilisateur" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="codeUtilisateur" Type="nvarchar" MaxLength="5" />
+    <Property Name="identifiant" Type="nvarchar" MaxLength="50" />
+    <Property Name="motDePasse" Type="nvarchar" MaxLength="50" />
+    <Property Name="codeProfil" Type="nvarchar" MaxLength="5" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="bdVenteModel1StoreContainer">
+    <EntitySet Name="categories" EntityType="Self.categories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Produits" EntityType="Self.Produits" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Profils" EntityType="Self.Profils" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Profils].[idProfil] AS [idProfil], 
+    [Profils].[codeProfil] AS [codeProfil], 
+    [Profils].[nomProfil] AS [nomProfil]
+    FROM [dbo].[Profils] AS [Profils]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Utilisateurs" EntityType="Self.Utilisateurs" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Utilisateurs].[idUtilisateur] AS [idUtilisateur], 
+    [Utilisateurs].[codeUtilisateur] AS [codeUtilisateur], 
+    [Utilisateurs].[identifiant] AS [identifiant], 
+    [Utilisateurs].[motDePasse] AS [motDePasse], 
+    [Utilisateurs].[codeProfil] AS [codeProfil], 
+    [Utilisateurs].[email] AS [email]
+    FROM [dbo].[Utilisateurs] AS [Utilisateurs]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

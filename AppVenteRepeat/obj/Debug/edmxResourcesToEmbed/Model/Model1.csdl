@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bdVenteModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="category">
+    <Key>
+      <PropertyRef Name="idCategorie" />
+    </Key>
+    <Property Name="idCategorie" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="codeCategorie" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="libelleCategorie" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="bdVenteEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="categories" EntityType="Self.category" />
+    <EntitySet Name="Produit1" EntityType="bdVenteModel1.Produit1" />
+    <EntitySet Name="Profils" EntityType="bdVenteModel1.Profil" />
+    <EntitySet Name="Utilisateurs" EntityType="bdVenteModel1.Utilisateur" />
+  </EntityContainer>
+  <EntityType Name="Produit1">
+    <Key>
+      <PropertyRef Name="idProduit" />
+    </Key>
+    <Property Name="idProduit" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="codeProduit" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="nomProduit" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="prixUnitaire" Type="Double" />
+    <Property Name="qteMin" Type="Int32" />
+    <Property Name="qteCri" Type="Int32" />
+    <Property Name="codeCategorie" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Profil">
+    <Key>
+      <PropertyRef Name="idProfil" />
+    </Key>
+    <Property Name="idProfil" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="codeProfil" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="nomProfil" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Utilisateur">
+    <Key>
+      <PropertyRef Name="idUtilisateur" />
+    </Key>
+    <Property Name="idUtilisateur" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="codeUtilisateur" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="identifiant" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="motDePasse" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="codeProfil" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>
