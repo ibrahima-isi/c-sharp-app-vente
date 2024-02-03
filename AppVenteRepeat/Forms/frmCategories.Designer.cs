@@ -49,11 +49,12 @@
             this.dgCategorie.RowTemplate.Height = 24;
             this.dgCategorie.Size = new System.Drawing.Size(435, 620);
             this.dgCategorie.TabIndex = 0;
+            this.dgCategorie.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgCategorie_CellContentClick);
             // 
             // labelCode
             // 
             this.labelCode.AutoSize = true;
-            this.labelCode.Location = new System.Drawing.Point(37, 29);
+            this.labelCode.Location = new System.Drawing.Point(41, 29);
             this.labelCode.Name = "labelCode";
             this.labelCode.Size = new System.Drawing.Size(136, 22);
             this.labelCode.TabIndex = 1;
@@ -62,14 +63,14 @@
             // 
             // txtCode
             // 
-            this.txtCode.Location = new System.Drawing.Point(41, 81);
+            this.txtCode.Location = new System.Drawing.Point(41, 92);
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(255, 28);
             this.txtCode.TabIndex = 1;
             // 
             // txtLibelle
             // 
-            this.txtLibelle.Location = new System.Drawing.Point(41, 204);
+            this.txtLibelle.Location = new System.Drawing.Point(41, 224);
             this.txtLibelle.Name = "txtLibelle";
             this.txtLibelle.Size = new System.Drawing.Size(255, 28);
             this.txtLibelle.TabIndex = 2;
@@ -77,7 +78,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(37, 152);
+            this.label3.Location = new System.Drawing.Point(41, 161);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(145, 22);
             this.label3.TabIndex = 5;

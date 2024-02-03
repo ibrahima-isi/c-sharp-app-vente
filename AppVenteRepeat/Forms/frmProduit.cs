@@ -24,10 +24,20 @@ namespace AppVenteRepeat
 
         private void frmProduit_Load(object sender, EventArgs e)
         {
+            // Load data from the database
             dgProduit.DataSource = db.Produit1.ToList();
-            cbbCategorie.DataSource = db.categories.ToList();
+            var categories = db.categories.ToList();
+
+            // Add a "Select" item as the first element in the combo box
+            categories.Insert(0, new category { codeCategorie = "", libelleCategorie = "Select" });  // Add the text directly
+
+            // Set the data source for the remaining items
+            cbbCategorie.DataSource = categories;
             cbbCategorie.ValueMember = "codeCategorie";
             cbbCategorie.DisplayMember = "libelleCategorie";
+
+            // Set the selected index to 0 to display "Select" initially
+            cbbCategorie.SelectedIndex = 0;
         }
 
         private void dgProduit_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -117,7 +127,7 @@ namespace AppVenteRepeat
             {
                 listeProduits = listeProduits.Where(a => a.codeProduit.ToUpper().Contains(txtRCode.Text.ToUpper())).ToList();
             }
-            if (!String.IsNullOrEmpty(txtRNom.Text))
+            else if (!String.IsNullOrEmpty(txtRNom.Text))
             {
                 listeProduits = listeProduits.Where(a => a.nomProduit.ToUpper().Contains(txtRNom.Text.ToUpper())).ToList();
             }

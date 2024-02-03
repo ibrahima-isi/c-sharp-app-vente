@@ -8,7 +8,7 @@
     <Property Name="codeCategorie" Type="nvarchar" MaxLength="5" />
     <Property Name="libelleCategorie" Type="nvarchar" MaxLength="100" />
   </EntityType>
-  <EntityType Name="Produits">
+  <EntityType Name="Produit1">
     <Key>
       <PropertyRef Name="idProduit" />
     </Key>
@@ -20,8 +20,6 @@
     <Property Name="qteCri" Type="int" />
     <Property Name="codeCategorie" Type="nvarchar" MaxLength="5" />
   </EntityType>
-  <!--Errors Found During Generation:
-warning 6002: The table/view 'bdVente.dbo.Profils' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="Profils">
     <Key>
       <PropertyRef Name="idProfil" />
@@ -30,8 +28,6 @@ warning 6002: The table/view 'bdVente.dbo.Profils' does not have a primary key d
     <Property Name="codeProfil" Type="nvarchar" MaxLength="5" />
     <Property Name="nomProfil" Type="nvarchar" MaxLength="50" />
   </EntityType>
-  <!--Errors Found During Generation:
-warning 6002: The table/view 'bdVente.dbo.Utilisateurs' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="Utilisateurs">
     <Key>
       <PropertyRef Name="idUtilisateur" />
@@ -45,23 +41,8 @@ warning 6002: The table/view 'bdVente.dbo.Utilisateurs' does not have a primary 
   </EntityType>
   <EntityContainer Name="bdVenteModel1StoreContainer">
     <EntitySet Name="categories" EntityType="Self.categories" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Produits" EntityType="Self.Produits" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Profils" EntityType="Self.Profils" store:Type="Tables" store:Schema="dbo">
-      <DefiningQuery>SELECT 
-    [Profils].[idProfil] AS [idProfil], 
-    [Profils].[codeProfil] AS [codeProfil], 
-    [Profils].[nomProfil] AS [nomProfil]
-    FROM [dbo].[Profils] AS [Profils]</DefiningQuery>
-    </EntitySet>
-    <EntitySet Name="Utilisateurs" EntityType="Self.Utilisateurs" store:Type="Tables" store:Schema="dbo">
-      <DefiningQuery>SELECT 
-    [Utilisateurs].[idUtilisateur] AS [idUtilisateur], 
-    [Utilisateurs].[codeUtilisateur] AS [codeUtilisateur], 
-    [Utilisateurs].[identifiant] AS [identifiant], 
-    [Utilisateurs].[motDePasse] AS [motDePasse], 
-    [Utilisateurs].[codeProfil] AS [codeProfil], 
-    [Utilisateurs].[email] AS [email]
-    FROM [dbo].[Utilisateurs] AS [Utilisateurs]</DefiningQuery>
-    </EntitySet>
+    <EntitySet Name="Produit1" EntityType="Self.Produit1" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Profils" EntityType="Self.Profils" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Utilisateurs" EntityType="Self.Utilisateurs" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

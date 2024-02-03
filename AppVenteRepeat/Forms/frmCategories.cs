@@ -79,5 +79,10 @@ namespace AppVenteRepeat
             db.SaveChanges();
             resetFormCategorie();
         }
+
+        private void dgCategorie_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

@@ -2,7 +2,7 @@
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="bdVenteModel1StoreContainer" CdmEntityContainer="bdVenteEntities1">
     <EntitySetMapping Name="categories">
-      <EntityTypeMapping TypeName="bdVenteModel1.category">
+      <EntityTypeMapping TypeName="IsTypeOf(bdVenteModel1.category)">
         <MappingFragment StoreEntitySet="categories">
           <ScalarProperty Name="idCategorie" ColumnName="idCategorie" />
           <ScalarProperty Name="codeCategorie" ColumnName="codeCategorie" />
@@ -11,36 +11,36 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Produit1">
-      <EntityTypeMapping TypeName="bdVenteModel1.Produit1">
-        <MappingFragment StoreEntitySet="Produits">
-          <ScalarProperty Name="codeCategorie" ColumnName="codeCategorie" />
-          <ScalarProperty Name="qteCri" ColumnName="qteCri" />
-          <ScalarProperty Name="qteMin" ColumnName="qteMin" />
-          <ScalarProperty Name="prixUnitaire" ColumnName="prixUnitaire" />
-          <ScalarProperty Name="nomProduit" ColumnName="nomProduit" />
-          <ScalarProperty Name="codeProduit" ColumnName="codeProduit" />
+      <EntityTypeMapping TypeName="IsTypeOf(bdVenteModel1.Produit1)">
+        <MappingFragment StoreEntitySet="Produit1">
           <ScalarProperty Name="idProduit" ColumnName="idProduit" />
+          <ScalarProperty Name="codeProduit" ColumnName="codeProduit" />
+          <ScalarProperty Name="nomProduit" ColumnName="nomProduit" />
+          <ScalarProperty Name="prixUnitaire" ColumnName="prixUnitaire" />
+          <ScalarProperty Name="qteMin" ColumnName="qteMin" />
+          <ScalarProperty Name="qteCri" ColumnName="qteCri" />
+          <ScalarProperty Name="codeCategorie" ColumnName="codeCategorie" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Profils">
-      <EntityTypeMapping TypeName="bdVenteModel1.Profil">
+      <EntityTypeMapping TypeName="IsTypeOf(bdVenteModel1.Profil)">
         <MappingFragment StoreEntitySet="Profils">
-          <ScalarProperty Name="nomProfil" ColumnName="nomProfil" />
-          <ScalarProperty Name="codeProfil" ColumnName="codeProfil" />
           <ScalarProperty Name="idProfil" ColumnName="idProfil" />
+          <ScalarProperty Name="codeProfil" ColumnName="codeProfil" />
+          <ScalarProperty Name="nomProfil" ColumnName="nomProfil" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Utilisateurs">
-      <EntityTypeMapping TypeName="bdVenteModel1.Utilisateur">
+      <EntityTypeMapping TypeName="IsTypeOf(bdVenteModel1.Utilisateur)">
         <MappingFragment StoreEntitySet="Utilisateurs">
-          <ScalarProperty Name="email" ColumnName="email" />
-          <ScalarProperty Name="codeProfil" ColumnName="codeProfil" />
-          <ScalarProperty Name="motDePasse" ColumnName="motDePasse" />
-          <ScalarProperty Name="identifiant" ColumnName="identifiant" />
-          <ScalarProperty Name="codeUtilisateur" ColumnName="codeUtilisateur" />
           <ScalarProperty Name="idUtilisateur" ColumnName="idUtilisateur" />
+          <ScalarProperty Name="codeUtilisateur" ColumnName="codeUtilisateur" />
+          <ScalarProperty Name="identifiant" ColumnName="identifiant" />
+          <ScalarProperty Name="motDePasse" ColumnName="motDePasse" />
+          <ScalarProperty Name="codeProfil" ColumnName="codeProfil" />
+          <ScalarProperty Name="email" ColumnName="email" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

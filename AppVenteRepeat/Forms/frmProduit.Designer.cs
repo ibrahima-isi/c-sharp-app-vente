@@ -67,7 +67,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 24);
+            this.label1.Location = new System.Drawing.Point(12, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 22);
             this.label1.TabIndex = 1;
@@ -82,7 +82,7 @@
             // 
             // txtNom
             // 
-            this.txtNom.Location = new System.Drawing.Point(12, 158);
+            this.txtNom.Location = new System.Drawing.Point(12, 159);
             this.txtNom.Name = "txtNom";
             this.txtNom.Size = new System.Drawing.Size(244, 28);
             this.txtNom.TabIndex = 2;
@@ -90,7 +90,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(8, 115);
+            this.label2.Location = new System.Drawing.Point(12, 116);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 22);
             this.label2.TabIndex = 3;
@@ -98,7 +98,7 @@
             // 
             // txtPrix
             // 
-            this.txtPrix.Location = new System.Drawing.Point(12, 244);
+            this.txtPrix.Location = new System.Drawing.Point(12, 251);
             this.txtPrix.Name = "txtPrix";
             this.txtPrix.Size = new System.Drawing.Size(244, 28);
             this.txtPrix.TabIndex = 3;
@@ -106,7 +106,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(8, 201);
+            this.label3.Location = new System.Drawing.Point(12, 208);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 22);
             this.label3.TabIndex = 5;
@@ -115,7 +115,7 @@
             // txtCategorie
             // 
             this.txtCategorie.AutoSize = true;
-            this.txtCategorie.Location = new System.Drawing.Point(8, 483);
+            this.txtCategorie.Location = new System.Drawing.Point(12, 484);
             this.txtCategorie.Name = "txtCategorie";
             this.txtCategorie.Size = new System.Drawing.Size(88, 22);
             this.txtCategorie.TabIndex = 11;
@@ -123,7 +123,7 @@
             // 
             // txtQteCritic
             // 
-            this.txtQteCritic.Location = new System.Drawing.Point(12, 440);
+            this.txtQteCritic.Location = new System.Drawing.Point(12, 435);
             this.txtQteCritic.Name = "txtQteCritic";
             this.txtQteCritic.Size = new System.Drawing.Size(244, 28);
             this.txtQteCritic.TabIndex = 5;
@@ -131,7 +131,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(8, 397);
+            this.label5.Location = new System.Drawing.Point(12, 392);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(145, 22);
             this.label5.TabIndex = 9;
@@ -139,7 +139,7 @@
             // 
             // txtQteMin
             // 
-            this.txtQteMin.Location = new System.Drawing.Point(12, 349);
+            this.txtQteMin.Location = new System.Drawing.Point(12, 343);
             this.txtQteMin.Name = "txtQteMin";
             this.txtQteMin.Size = new System.Drawing.Size(244, 28);
             this.txtQteMin.TabIndex = 4;
@@ -147,7 +147,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(8, 306);
+            this.label6.Location = new System.Drawing.Point(12, 300);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(129, 22);
             this.label6.TabIndex = 7;
@@ -196,7 +196,7 @@
             // cbbCategorie
             // 
             this.cbbCategorie.FormattingEnabled = true;
-            this.cbbCategorie.Location = new System.Drawing.Point(12, 534);
+            this.cbbCategorie.Location = new System.Drawing.Point(12, 527);
             this.cbbCategorie.Name = "cbbCategorie";
             this.cbbCategorie.Size = new System.Drawing.Size(244, 30);
             this.cbbCategorie.TabIndex = 6;
